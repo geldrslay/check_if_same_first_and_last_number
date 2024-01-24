@@ -14,6 +14,14 @@ def check_if_same_first_and_last(number_list):
         return True
     else: return False
 
-# First number list given 
+# First given number list
 first_number_list = [10,20,30,40,10]
-print ("\n",'Is the first and last number the same?:', check_if_same_first_and_last(first_number_list))
+print ('Is the first and last number the same?:', check_if_same_first_and_last(first_number_list))
+
+# Second given number list
+second_number_list = [75, 65, 35, 75, 30]
+print ('Is the first and last number the same?:', check_if_same_first_and_last(second_number_list))
+
+# Additional example 
+third_number_list = [11,32,45,76,90,11]
+print ('Is the first and last number the same?:', check_if_same_first_and_last(third_number_list))
